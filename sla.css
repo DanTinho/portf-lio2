@@ -1,0 +1,164 @@
+header {
+    background-color: rgb(42, 42, 209);
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+.slafodase {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.slafodase h2 {
+    font-size: 70px;
+}
+
+.slamain h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 0px
+}
+
+footer {
+    background-color: rgb(42, 42, 209);
+    padding: 20px 0;
+}
+
+.slafooter {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.slafooter h3 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.meses1 li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 0 9%;
+    border-color:  rgb(42, 42, 209);
+    transition: 0.4s all;
+    margin-top: 20px;
+}
+
+.projetode {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(206, 0, 0);
+    margin: 20px;
+}
+
+.meses1 h2 {
+    font-size: 60px;
+    color: blue;
+    margin-bottom: 70px;
+    text-decoration: underline;
+}
+
+.meses1 li:hover {
+    border-color: rgb(206, 0, 0);
+    background-color: rgb(42, 42, 209);
+    color: white;
+    transform: scale(1.1,1.1);
+}
+
+.meses1 li:hover h2 {
+    color: white;
+}
+
+.meses1 li:hover .projetode{
+    color: rgb(182, 255, 255);
+}
+
+.meses1 a {
+    text-decoration: none;
+}
+
+.meses2 li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 10px;
+    border-color:  rgb(42, 42, 209);
+    margin: 50px 33%;
+    transition: 0.4s all;
+}
+
+.meses2 li:hover {
+    border-color: black;
+    background-color: rgb(42, 42, 209);
+    color: white;
+    transform: scale(1.1,1.1);
+}
+
+.meses2 h2 {
+    font-size: 60px;
+    color: blue;
+    margin-bottom: 70px;
+    text-decoration: underline;
+}
+
+.meses2 li:hover h2 {
+    color: white;
+}
+
+.meses2 li:hover .projetode{
+    color: rgb(182, 255, 255);
+}
+
+.meses2 a{
+    text-decoration: none;
+}
+
+.seta {
+    display: inline-block;
+    text-align: center;
+    transition: 0.4s all;
+    width: 6%;
+    box-sizing: content-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.seta a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.seta p {
+    margin: 10px;
+}
+
+.seta:hover {
+    transform: scale(1,1);
+    background-color: gray;
+}
+
+
+/*.linhafoda { 
+    width: 5px; 
+    height: 310px; 
+    background-color: rgb(42, 42, 209); 
+    margin: auto; 
+    margin-top: -280px;
+    margin-bottom: 20px
+}*/
+
