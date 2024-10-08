@@ -1,0 +1,72 @@
+header {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    text-decoration: underline;
+    color: white;
+    font-size: 55px;
+}
+
+.botoes {
+    display: inline-block;
+    text-align: center;
+    margin: 0 33%;
+}
+
+.botoes button{
+    margin-top: 5px;
+    width: 320px;
+    height: 70px;
+    border-radius: 7px;
+}
+
+table {
+    margin: 10px auto 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 2px 15px;
+}
+
+.thins {
+    width: 290px;
+}
+
+td p {
+    margin: auto;
+}
+
+.times {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+footer h1 {
+    margin: 4px;
+}
+
+footer p {
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;
+}

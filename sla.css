@@ -1,164 +1,356 @@
+@font-face{
+    font-family: "Poker";
+    src: url('Poker.ttf');
+}
+
+@font-face {
+    font-family: "PokerinOctober";
+    src: url('PokerInOctober-Demo.otf');
+}
+
 header {
-    background-color: rgb(42, 42, 209);
+    background-color: rgb(167, 93, 25);
     padding: 20px 0;
-    margin-bottom: 10px;
+    border: 5px solid black;
 }
 
 .slafodase {
-    color: white;
     text-align: center;
-    font-size: 40px;
-    text-decoration: underline;
 }
 
-.slafodase h2 {
-    font-size: 70px;
+.slafodase h1{
+    color: white;
+    font-size: 100px;
+    font-family: "PokerinOctober";
 }
 
 .slamain h1 {
+    font-family: "PokerinOctober";
     text-align: center;
     text-decoration: underline;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 10px;
     margin-top: 0px
 }
 
+.slamain h2{
+    font-family: "Poker";
+    text-align: center;
+    font-size: 100px;
+    color: rgb(197, 6, 6);
+    margin-top: 10px;
+    margin-bottom: -25px;
+    background-color: rgb(84, 168, 91);
+    width: 430px;
+    margin: auto;
+    border: 5px solid rgb(70, 51, 0);;
+}
+
+main {
+    background-image: linear-gradient(to top, rgb(13, 74, 3), rgb(35, 209, 8));
+    border: 2px solid rgb(70, 51, 0);
+    height: 2510px;
+}
+
+/*SETEMRBO*/
+
+.pjtdsetembro {
+    text-align: center;
+}
+
+.pjtdsetembro li {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border: 15px double black;
+    border-radius: 15px;
+    margin: 50px 15%;
+    margin-bottom: 15px;
+    transition: 0.5s all;
+    background-color: white;
+}
+
+.pjtdsetembro li a {
+    text-decoration: none;
+}
+
+.pjtdsetembro li:hover {
+    transform: scale(1.1,1.1);
+    border-color: rgb(240, 0, 0);
+}
+
+.pjtdsetembro a:hover .as {
+    color: black;
+    visibility: hidden;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 28px;
+}
+
+.pjtdsetembro a:hover .as:before {
+    content: '\002660';
+    color: black;
+    visibility: visible;
+    font-size: 70px;
+}
+
+.pjtdsetembro a:hover p {
+    color: rgb(240, 0, 0);
+    visibility: hidden;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 28px;
+}
+
+.pjtdsetembro a:hover p:before {
+    content: '\002666';
+    color: rgb(240, 0, 0);
+    visibility: visible;
+    font-size: 70px;
+}
+
+.pjtdsetembro p {
+    font-size: 42px;
+    font-weight: bold;
+    color: red;
+}
+
+.pjtdsetembro .as {
+    color: black;
+}
+
+.pjtdsetembro h6 {
+    margin: 5px 1%;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    font-family: "PokerinOctober";
+}
+
+.pjtdsetembro h5 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(1, 154, 192);
+    margin-left: 2px;
+}
+
+/*OUTUBRO*/
+
+.pjtdoutubro {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.pjtdoutubro h2 {
+    text-align: center;
+}
+
+.pjtdoutubro li {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border: 15px double black;
+    border-radius: 15px;
+    margin: 50px 15%;
+    margin-bottom: 15px;
+    transition: 0.5s all;
+    background-color: white;
+}
+
+.pjtdoutubro li a {
+    text-decoration: none;
+}
+
+.pjtdoutubro li:hover {
+    transform: scale(1.1,1.1);
+    border-color: rgb(240, 0, 0);
+}
+
+.pjtdoutubro a:hover .as {
+    color: black;
+    visibility: hidden;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 28px;
+}
+
+.pjtdoutubro a:hover .as:before {
+    content: '\002660';
+    color: black;
+    visibility: visible;
+    font-size: 70px;
+}
+
+.pjtdoutubro a:hover p {
+    color: rgb(240, 0, 0);
+    visibility: hidden;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 28px;
+}
+
+.pjtdoutubro a:hover p:before {
+    content: '\002666';
+    color: rgb(240, 0, 0);
+    visibility: visible;
+    font-size: 70px;
+}
+
+.pjtdoutubro p {
+    font-size: 42px;
+    font-weight: bold;
+    color: red;
+}
+
+.pjtdoutubro .as {
+    color: black;
+}
+
+.pjtdoutubro h6 {
+    margin: 5px 1%;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    font-family: "PokerinOctober";
+}
+
+.pjtdoutubro h5 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(1, 154, 192);
+    margin-left: 2px;
+}
+
+/*NOVEMBRO*/
+
+.pjtdnovembro {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.pjtdnovembro li {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border: 15px double black;
+    border-radius: 15px;
+    margin: 50px 15%;
+    margin-bottom: 15px;
+    transition: 0.5s all;
+    background-color: white;
+}
+
+.pjtdnovembro li a {
+    text-decoration: none;
+}
+
+.pjtdnovembro li:hover {
+    transform: scale(1.1,1.1);
+    border-color: rgb(240, 0, 0);
+}
+
+.pjtdnovembro a:hover .as {
+    color: black;
+    visibility: hidden;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 28px;
+}
+
+.pjtdnovembro a:hover .as:before {
+    content: '\002660';
+    color: black;
+    visibility: visible;
+    font-size: 70px;
+}
+
+.pjtdnovembro a:hover p {
+    color: rgb(240, 0, 0);
+    visibility: hidden;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 28px;
+}
+
+.pjtdnovembro a:hover p:before {
+    content: '\002666';
+    color: rgb(240, 0, 0);
+    visibility: visible;
+    font-size: 70px;
+}
+
+.pjtdnovembro p {
+    font-size: 42px;
+    font-weight: bold;
+    color: red;
+}
+
+.pjtdnovembro .as {
+    color: black;
+}
+
+.pjtdnovembro h6 {
+    margin: 5px 1%;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    font-family: "PokerinOctober";
+}
+
+.pjtdnovembro h5 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(1, 154, 192);
+    margin-left: 2px;
+}
+
 footer {
-    background-color: rgb(42, 42, 209);
+    background-color: rgb(129, 69, 13);
     padding: 20px 0;
+    border: 5px solid black;
 }
 
 .slafooter {
     text-align: center;
     color: white;
-    font-size: 30px;
+}
+
+.slafooter h1 {
+    font-size: 60px;
+    font-family: "PokerinOctober";
 }
 
 .slafooter h3 {
-    font-size: 50px;
+    font-size: 80px;
     margin: 20px;
+    font-family: "PokerinOctober";
 }
 
-.meses1 li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    position: relative;
-    box-sizing: border-box;
-    border: 4px solid black;
-    border-radius: 10px;
-    margin: 0 9%;
-    border-color:  rgb(42, 42, 209);
-    transition: 0.4s all;
-    margin-top: 20px;
+.linhafoda {
+    width: 7px;
+    height: 900px;
+    background-color: rgb(129, 69, 13);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: -900px;
+    border: 2px solid black;
 }
-
-.projetode {
-    font-weight: bold;
-    font-size: 40px;
-    color: rgb(206, 0, 0);
-    margin: 20px;
-}
-
-.meses1 h2 {
-    font-size: 60px;
-    color: blue;
-    margin-bottom: 70px;
-    text-decoration: underline;
-}
-
-.meses1 li:hover {
-    border-color: rgb(206, 0, 0);
-    background-color: rgb(42, 42, 209);
-    color: white;
-    transform: scale(1.1,1.1);
-}
-
-.meses1 li:hover h2 {
-    color: white;
-}
-
-.meses1 li:hover .projetode{
-    color: rgb(182, 255, 255);
-}
-
-.meses1 a {
-    text-decoration: none;
-}
-
-.meses2 li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    box-sizing: border-box;
-    border: 4px solid black;
-    border-radius: 10px;
-    border-color:  rgb(42, 42, 209);
-    margin: 50px 33%;
-    transition: 0.4s all;
-}
-
-.meses2 li:hover {
-    border-color: black;
-    background-color: rgb(42, 42, 209);
-    color: white;
-    transform: scale(1.1,1.1);
-}
-
-.meses2 h2 {
-    font-size: 60px;
-    color: blue;
-    margin-bottom: 70px;
-    text-decoration: underline;
-}
-
-.meses2 li:hover h2 {
-    color: white;
-}
-
-.meses2 li:hover .projetode{
-    color: rgb(182, 255, 255);
-}
-
-.meses2 a{
-    text-decoration: none;
-}
-
-.seta {
-    display: inline-block;
-    text-align: center;
-    transition: 0.4s all;
-    width: 6%;
-    box-sizing: content-box;
-    border: 1px solid white;
-    border-radius: 5px;
-    margin-top: -10px;
-}
-
-.seta a {
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-}
-
-.seta p {
-    margin: 10px;
-}
-
-.seta:hover {
-    transform: scale(1,1);
-    background-color: gray;
-}
-
-
-/*.linhafoda { 
-    width: 5px; 
-    height: 310px; 
-    background-color: rgb(42, 42, 209); 
-    margin: auto; 
-    margin-top: -280px;
-    margin-bottom: 20px
-}*/
 
