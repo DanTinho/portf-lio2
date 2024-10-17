@@ -47,9 +47,9 @@ header {
 }
 
 main {
-    background-image: linear-gradient(to top, rgb(19, 102, 6), rgb(35, 209, 8));
+    background-image: linear-gradient(to top, rgb(13, 74, 3), rgb(35, 209, 8));
     border: 2px solid rgb(70, 51, 0);
-    height: 3360px;
+    height: 2510px;
 }
 
 /*SETEMRBO*/
@@ -354,12 +354,3 @@ footer {
     border: 2px solid black;
 }
 
-.linhafodaoutros {
-    width: 7px;
-    height: 450px;
-    background-color: rgb(129, 69, 13);
-    margin: 0 auto;
-    margin-bottom: 50px;
-    margin-top: -500px;
-    border: 2px solid black;
-}
