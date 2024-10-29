@@ -1,0 +1,10 @@
+main {
+    width: 360px;
+    height: 700px;
+    border: 10px solid rgb(98, 98, 98);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 130px;
+    background-image: url(fundocartao.jpeg);
+    background-size: 360px;
+}

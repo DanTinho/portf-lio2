@@ -1,33 +1,5 @@
-header {
-    height: 20px;
-    background-color: black;
-}
-
-.banner img {
-    width: 50%;
-    border: 1px solid black;
-    margin-top: 5px;
-}
-
-.banner h1 {
-    position: relative;
-    left: 750px;
-    bottom: 230px;
-    margin-bottom: -45px;
-}
-
-main {
-    position: relative;
-    min-height: 100vh;
-}
-
 button {
     width: 140px;
     height: 60px;
     border-radius: 5px;
-}
-
-footer {
-    height: 20px;
-    background-color: black;
 }

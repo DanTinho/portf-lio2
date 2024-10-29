@@ -8,14 +8,12 @@ function perguntarPeso() {
     let resposta = window.document.getElementById('valorImc');
 
     if(imc < 18.5) {
-    resposta.innerHTML += "<p>Considerando seu peso de <b>" + peso + "kg</b> e sua altura de <b>" + altura + "m</b>, você possui um IMC de <b>" + imc.toFixed(1) + "</b>, significando que está ABAIXO DO PESO COMUM com base na tabela de IMC.<p>";
+    resposta.innerHTML += "<p>Considerando seu peso de " + peso + "kg e sua altura de " + altura + "m, você está abaixo do peso.<p>";
     } else if (imc > 18.6 && imc < 24.9) {
-    resposta.innerHTML += "<p>Considerando seu peso de <b>" + peso + "kg</b> e sua altura de <b>" + altura + "m</b>, você possui um IMC de <b>" + imc.toFixed(1) + "</b>, significando que está PESANDO NORMALMENTE com base na tabela de IMC.<p>";
+    resposta.innerHTML += "<p>Considerando seu peso de " + peso + "kg e sua altura de " + altura + "m, você está no peso normal.<p>";
     } else if (imc > 25 && imc < 29.9) {
-    resposta.innerHTML += "<p>Considerando seu peso de <b>" + peso + "kg</b> e sua altura de <b>" + altura + "m</b>, você possui um IMC de <b>" + imc.toFixed(1) + "</b>, significando que está com EXCESSO DE PESO com base na tabela de IMC.<p>";
-    } else if (imc > 30 && imc < 34.9) {
-    resposta.innerHTML += "<p>Considerando seu peso de <b>" + peso + "kg</b> e sua altura de <b>" + altura + "m</b>, você possui um IMC de <b>" + imc.toFixed(1) + "</b>, significando que VOCÊ POSSUI OBESIDADE com base na tabela de IMC.<p>";
-    } else if (imc > 35) {
-    resposta.innerHTML += "<p>Considerando seu peso de <b>" + peso + "kg</b> e sua altura de <b>" + altura + "m</b>, você possui um IMC de <b>" + imc.toFixed(1) + "</b>, significando que POSSUI OBESIDADE EXTREMA com base na tabela de IMC.<p>";
+    resposta.innerHTML += "<p>Considerando seu peso de " + peso + "kg e sua altura de " + altura + "m, você está acima do peso.<p>";
+    } else if (imc > 30) {
+    resposta.innerHTML += "<p>Considerando seu peso de " + peso + "kg e sua altura de " + altura + "m, você está obeso.<p>";
     }
 }
