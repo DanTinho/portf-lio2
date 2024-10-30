@@ -10,7 +10,9 @@ main {
 }
 
 li {
+    display: inline-block;
     color: white;
+    margin: 50% 180px;
 }
 
 
