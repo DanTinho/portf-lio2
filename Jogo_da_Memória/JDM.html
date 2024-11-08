@@ -8,10 +8,22 @@
     <script defer src="JDM.js"></script>
 </head>
 <body>
-    <header>
-        <h1>JOGO DA MEMORIA</h1>
-    </header>
     <main>
+
+      <header>
+        <div class="header">
+          <h1>JOGO DA MEMORIA</h1>
+          <button class="botao" id="botao" type="button" onclick="comecarJogo()">COMEÇAR JOGO</button>
+        </div>
+      </header>
+
+      <div class="main">
+
+      <div class="contador">
+        <span class="moviment">MOVIMENTOS: <span class="movimentos">0</span></span>
+        <button class="resetar" id="resetar" type="button" onclick="resetarJogo()" hidden>RESETAR JOGO</button>
+        <span class="tempo" >TEMPO: <span class="temporizador">0</span></span>
+      </div>
 
       <div class="grid">
 
@@ -22,10 +34,8 @@
 
     </div>
 
+  </div>
+
     </main>
-    <footer>
-        <h1>João Franco Nº18 -  Daniel Felde Nº7</h1>
-        <h2>2ºE</h2>
-    </footer>
 </body>
 </html>

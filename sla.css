@@ -37,19 +37,19 @@ header {
     font-family: "Poker";
     text-align: center;
     font-size: 100px;
-    color: rgb(197, 6, 6);
+    color: rgb(124, 0, 0);
     margin-top: 10px;
     margin-bottom: -25px;
-    background-color: rgb(84, 168, 91);
+    background-color: rgb(167, 93, 25);
     width: 430px;
     margin: auto;
-    border: 5px solid rgb(70, 51, 0);;
+    border: 5px solid rgb(70, 51, 0);
 }
 
 main {
     background-image: linear-gradient(to top, rgb(13, 74, 3), rgb(35, 209, 8));
     border: 2px solid rgb(70, 51, 0);
-    height: 2500px;
+    height: 2530px;
 }
 
 /*SETEMRBO*/
@@ -353,4 +353,3 @@ footer {
     margin-top: -1400px;
     border: 2px solid black;
 }
-
